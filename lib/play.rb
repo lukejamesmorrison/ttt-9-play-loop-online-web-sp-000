@@ -41,6 +41,5 @@ def play(board)
   x_turn = true
   while turn_count < 9
     turn(board)
-    x_turn = !x_turn
   end
 end
